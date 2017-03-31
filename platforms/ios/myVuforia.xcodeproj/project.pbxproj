@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00142982AB9545338D8DA070 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 677FA4477D2F4EBC861415E1 /* Security.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		0207DA581B56EA530066E2B4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0207DA571B56EA530066E2B4 /* Images.xcassets */; };
+		170D090EA7454DCCA659536E /* iOSDevices.png in Resources */ = {isa = PBXBuildFile; fileRef = 54F118F540044C3A881681EC /* iOSDevices.png */; };
+		173D9974C6674C5ABAF599F8 /* CDVLocalFilesystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 92BCBC793FAB44FE8E1E5B7D /* CDVLocalFilesystem.m */; };
+		1D3623260D0F684500981E51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		2202DD12052A42D59A288142 /* ImageTargetsEAGLView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0B50DC3D09BC4A64A9554F79 /* ImageTargetsEAGLView.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		301BF552109A68D80062928A /* libCordova.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 301BF535109A57CC0062928A /* libCordova.a */; };
+		302D95F114D2391D003F00A1 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 302D95EF14D2391D003F00A1 /* MainViewController.m */; };
+		302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 302D95F014D2391D003F00A1 /* MainViewController.xib */; };
+		38635D6039B74A08AB977951 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F01EC6D3A0B46BB8E828944 /* OpenGLES.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		39528FCCEF3147D2917CEE3E /* CDVSound.m in Sources */ = {isa = PBXBuildFile; fileRef = C853194E1A4C49BDB407291F /* CDVSound.m */; };
+		3B74A3AD217C45139C821B05 /* ApplicationSession.mm in Sources */ = {isa = PBXBuildFile; fileRef = 18EDBE1149FF466F8814CD70 /* ApplicationSession.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		426C7E65B58C467D9EB08C15 /* Simple.fragsh in Resources */ = {isa = PBXBuildFile; fileRef = A9BBA656D8A14D4D872E3CAC /* Simple.fragsh */; };
+		49F80687AA7742EB9F0A83DB /* Simple.vertsh in Resources */ = {isa = PBXBuildFile; fileRef = B8415466B07A4CF49209C823 /* Simple.vertsh */; };
+		59944B0C728344ACB01CAC0F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93E6451ADB6B4FC89F6FFED9 /* UIKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		623E69EB62A14214BC455A39 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E5292E670B745E1A4E32E08 /* CoreMedia.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		62B3E73BC39A43AEA9DFC246 /* PluginTest.xml in Resources */ = {isa = PBXBuildFile; fileRef = 93A1DBDFC51B438E94815CCA /* PluginTest.xml */; };
+		6AFF5BF91D6E424B00AB3073 /* CDVLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */; };
+		6B5DB5F455964D2BA94FED7A /* GLResourceHandler.h in Sources */ = {isa = PBXBuildFile; fileRef = 64CB741D86BF4D04A05258A0 /* GLResourceHandler.h */; };
+		6D03A09E040B4F0FBD0D41B6 /* CDVStatusBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 486FAB704A624B8F8DA1F641 /* CDVStatusBar.m */; };
+		6DBA697354F94F8D8B391DCB /* Line.fragsh in Resources */ = {isa = PBXBuildFile; fileRef = 8356A0ABDB0A4707AB82D09F /* Line.fragsh */; };
+		6FCE3E86725640FEAF71D01E /* ImageTargetsViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0FF01A39084B42FCB82828EE /* ImageTargetsViewController.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		70F5014F27054FF1A95BC668 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2C4704EA17F4464FB3B81AD6 /* ViewController.mm */; };
+		755249FDB5444AA69D343023 /* libVuforia.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D13D4D3268749ADA04FAAF9 /* libVuforia.a */; };
+		759A6C3C895443D4888777B4 /* CDVAssetLibraryFilesystem.m in Sources */ = {isa = PBXBuildFile; fileRef = C0FD0DC5B2064CFA88CDCB93 /* CDVAssetLibraryFilesystem.m */; };
+		7B295CF00CA74078BC81C8AE /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B736C9A0A7F41938211753B /* SystemConfiguration.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		7F8A15418D4348BF815FEEFD /* PluginTest.dat in Resources */ = {isa = PBXBuildFile; fileRef = 95D16B03DC7142ADA68DD9F3 /* PluginTest.dat */; };
+		8FB52DD4EDEE44C9B41F92B7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C4FEB8575CD40EA9E662752 /* QuartzCore.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		901DF233D22649C6BE99A993 /* Line.vertsh in Resources */ = {isa = PBXBuildFile; fileRef = 548ADF9288774D9BA083FFDF /* Line.vertsh */; };
+		91B876C0D3C34E8B8372D0DC /* CDVDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D34858BCFE4BE8B9DDC5C2 /* CDVDevice.m */; };
+		9B7C788ACE37408296F2EE9B /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FD54E8C46174A6E9CFB787D /* CoreMotion.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		9C110652D22A4F1093DD9310 /* CDVFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 006D7F6AF47F4C10BF5F6176 /* CDVFile.m */; };
+		AE7FC724C179471E9DEDF976 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F71179CE411448E9AFDDCD06 /* CoreVideo.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		B76BDCDD503D4E688005FE2E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F57F107F05D44C6BB9EC58D0 /* AVFoundation.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		D3428681A22E4E5A9E8B0275 /* close-button.png in Resources */ = {isa = PBXBuildFile; fileRef = D33D86999B054480BF20F83B /* close-button.png */; };
+		D3EB8636E50246B590F2FC9E /* VuforiaPlugin.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 55F300C8FEE649CD913B0714 /* VuforiaPlugin.bundle */; };
+		EDDD883B7F12452A91612183 /* VuforiaPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A3C60943B3C4584A2EDAE88 /* VuforiaPlugin.m */; };
+		FBF3A83076F94034A222F89B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7034CBF0B47740B7895671BC /* Foundation.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		FFB8E1A4B5274E828AD28CBF /* ApplicationSession.h in Sources */ = {isa = PBXBuildFile; fileRef = BE26E4BDE05D41FCA3EDD78F /* ApplicationSession.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		301BF534109A57CC0062928A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D;
+			remoteInfo = CordovaLib;
+		};
+		301BF550109A68C00062928A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = CordovaLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		006D7F6AF47F4C10BF5F6176 /* CDVFile.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CDVFile.m; path = "cordova-plugin-file/CDVFile.m"; sourceTree = "<group>"; };
+		0207DA571B56EA530066E2B4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = myVuforia/Images.xcassets; sourceTree = SOURCE_ROOT; };
+		0B50DC3D09BC4A64A9554F79 /* ImageTargetsEAGLView.mm */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = ImageTargetsEAGLView.mm; path = "cordova-plugin-vuforia/ImageTargetsEAGLView.mm"; sourceTree = "<group>"; };
+		0FF01A39084B42FCB82828EE /* ImageTargetsViewController.mm */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = ImageTargetsViewController.mm; path = "cordova-plugin-vuforia/ImageTargetsViewController.mm"; sourceTree = "<group>"; };
+		112A4C1D9A594F578475B9C9 /* ImageTargetsEAGLView.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = ImageTargetsEAGLView.h; path = "cordova-plugin-vuforia/ImageTargetsEAGLView.h"; sourceTree = "<group>"; };
+		18EDBE1149FF466F8814CD70 /* ApplicationSession.mm */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = ApplicationSession.mm; path = "cordova-plugin-vuforia/ApplicationSession.mm"; sourceTree = "<group>"; };
+		1D3623240D0F684500981E51 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* myVuforia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myVuforia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E5292E670B745E1A4E32E08 /* CoreMedia.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		277109696EC845DF83375A26 /* ImageTargetsViewController.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = ImageTargetsViewController.h; path = "cordova-plugin-vuforia/ImageTargetsViewController.h"; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2C4704EA17F4464FB3B81AD6 /* ViewController.mm */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = ViewController.mm; path = "cordova-plugin-vuforia/ViewController.mm"; sourceTree = "<group>"; };
+		301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CordovaLib.xcodeproj; path = CordovaLib/CordovaLib.xcodeproj; sourceTree = "<group>"; };
+		301BF56E109A69640062928A /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = SOURCE_ROOT; };
+		302D95EE14D2391D003F00A1 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		302D95EF14D2391D003F00A1 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		302D95F014D2391D003F00A1 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		3047A50F1AB8059700498E2A /* build-debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "build-debug.xcconfig"; path = "cordova/build-debug.xcconfig"; sourceTree = SOURCE_ROOT; };
+		3047A5101AB8059700498E2A /* build-release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "build-release.xcconfig"; path = "cordova/build-release.xcconfig"; sourceTree = SOURCE_ROOT; };
+		3047A5111AB8059700498E2A /* build.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = build.xcconfig; path = cordova/build.xcconfig; sourceTree = SOURCE_ROOT; };
+		32CA4F630368D1EE00C91783 /* myVuforia-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "myVuforia-Prefix.pch"; sourceTree = "<group>"; };
+		35D2677C34FB414CB63ECDAB /* CDVStatusBar.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CDVStatusBar.h; path = "cordova-plugin-statusbar/CDVStatusBar.h"; sourceTree = "<group>"; };
+		38EDE52D8AA44C2A9B5A019F /* CDVSound.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CDVSound.h; path = "cordova-plugin-media/CDVSound.h"; sourceTree = "<group>"; };
+		486FAB704A624B8F8DA1F641 /* CDVStatusBar.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CDVStatusBar.m; path = "cordova-plugin-statusbar/CDVStatusBar.m"; sourceTree = "<group>"; };
+		548ADF9288774D9BA083FFDF /* Line.vertsh */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = Line.vertsh; sourceTree = "<group>"; };
+		54F118F540044C3A881681EC /* iOSDevices.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = iOSDevices.png; sourceTree = "<group>"; };
+		55F300C8FEE649CD913B0714 /* VuforiaPlugin.bundle */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.plug-in"; path = VuforiaPlugin.bundle; sourceTree = "<group>"; };
+		5B736C9A0A7F41938211753B /* SystemConfiguration.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		5C4FEB8575CD40EA9E662752 /* QuartzCore.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		64CB741D86BF4D04A05258A0 /* GLResourceHandler.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = GLResourceHandler.h; path = "cordova-plugin-vuforia/GLResourceHandler.h"; sourceTree = "<group>"; };
+		677FA4477D2F4EBC861415E1 /* Security.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		6A3C60943B3C4584A2EDAE88 /* VuforiaPlugin.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = VuforiaPlugin.m; path = "cordova-plugin-vuforia/VuforiaPlugin.m"; sourceTree = "<group>"; };
+		6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = CDVLaunchScreen.storyboard; path = myVuforia/CDVLaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
+		6D13D4D3268749ADA04FAAF9 /* libVuforia.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; name = libVuforia.a; path = "myVuforia/Plugins/cordova-plugin-vuforia-sdk/libs/libVuforia.a"; sourceTree = "<group>"; };
+		6F01EC6D3A0B46BB8E828944 /* OpenGLES.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		7034CBF0B47740B7895671BC /* Foundation.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		729398E0732F4F4A83B64C06 /* CDVLocalFilesystem.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CDVLocalFilesystem.h; path = "cordova-plugin-file/CDVLocalFilesystem.h"; sourceTree = "<group>"; };
+		78F69C18594B4B79B37A48EC /* CDVDevice.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CDVDevice.h; path = "cordova-plugin-device/CDVDevice.h"; sourceTree = "<group>"; };
+		7FF1D92EE30F4FCBAE12B717 /* VuforiaPlugin.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = VuforiaPlugin.h; path = "cordova-plugin-vuforia/VuforiaPlugin.h"; sourceTree = "<group>"; };
+		8356A0ABDB0A4707AB82D09F /* Line.fragsh */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = Line.fragsh; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* myVuforia-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "myVuforia-Info.plist"; path = "myVuforia/myVuforia-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = SOURCE_ROOT; };
+		92BCBC793FAB44FE8E1E5B7D /* CDVLocalFilesystem.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CDVLocalFilesystem.m; path = "cordova-plugin-file/CDVLocalFilesystem.m"; sourceTree = "<group>"; };
+		93A1DBDFC51B438E94815CCA /* PluginTest.xml */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = PluginTest.xml; sourceTree = "<group>"; };
+		93E6451ADB6B4FC89F6FFED9 /* UIKit.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		95D16B03DC7142ADA68DD9F3 /* PluginTest.dat */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = PluginTest.dat; sourceTree = "<group>"; };
+		98C482F9F49C428DA8C0F2F2 /* CDVAssetLibraryFilesystem.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CDVAssetLibraryFilesystem.h; path = "cordova-plugin-file/CDVAssetLibraryFilesystem.h"; sourceTree = "<group>"; };
+		9FD54E8C46174A6E9CFB787D /* CoreMotion.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		A9BBA656D8A14D4D872E3CAC /* Simple.fragsh */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = Simple.fragsh; sourceTree = "<group>"; };
+		B8415466B07A4CF49209C823 /* Simple.vertsh */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = Simple.vertsh; sourceTree = "<group>"; };
+		BE26E4BDE05D41FCA3EDD78F /* ApplicationSession.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = ApplicationSession.h; path = "cordova-plugin-vuforia/ApplicationSession.h"; sourceTree = "<group>"; };
+		C0FD0DC5B2064CFA88CDCB93 /* CDVAssetLibraryFilesystem.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CDVAssetLibraryFilesystem.m; path = "cordova-plugin-file/CDVAssetLibraryFilesystem.m"; sourceTree = "<group>"; };
+		C6D34858BCFE4BE8B9DDC5C2 /* CDVDevice.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CDVDevice.m; path = "cordova-plugin-device/CDVDevice.m"; sourceTree = "<group>"; };
+		C853194E1A4C49BDB407291F /* CDVSound.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CDVSound.m; path = "cordova-plugin-media/CDVSound.m"; sourceTree = "<group>"; };
+		CD9E897FBC464247A05A7A88 /* CDVFile.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CDVFile.h; path = "cordova-plugin-file/CDVFile.h"; sourceTree = "<group>"; };
+		D33D86999B054480BF20F83B /* close-button.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = "close-button.png"; sourceTree = "<group>"; };
+		EB87FDF31871DA8E0020F90C /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = ../../www; sourceTree = "<group>"; };
+		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
+		ED33DF2A687741AEAF9F8254 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		F57F107F05D44C6BB9EC58D0 /* AVFoundation.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		F62BCB1E4E084287928D996A /* ViewController.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = "cordova-plugin-vuforia/ViewController.h"; sourceTree = "<group>"; };
+		F71179CE411448E9AFDDCD06 /* CoreVideo.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = myVuforia/config.xml; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				301BF552109A68D80062928A /* libCordova.a in Frameworks */,
+				755249FDB5444AA69D343023 /* libVuforia.a in Frameworks */,
+				B76BDCDD503D4E688005FE2E /* AVFoundation.framework in Frameworks */,
+				623E69EB62A14214BC455A39 /* CoreMedia.framework in Frameworks */,
+				9B7C788ACE37408296F2EE9B /* CoreMotion.framework in Frameworks */,
+				AE7FC724C179471E9DEDF976 /* CoreVideo.framework in Frameworks */,
+				FBF3A83076F94034A222F89B /* Foundation.framework in Frameworks */,
+				38635D6039B74A08AB977951 /* OpenGLES.framework in Frameworks */,
+				8FB52DD4EDEE44C9B41F92B7 /* QuartzCore.framework in Frameworks */,
+				00142982AB9545338D8DA070 /* Security.framework in Frameworks */,
+				7B295CF00CA74078BC81C8AE /* SystemConfiguration.framework in Frameworks */,
+				59944B0C728344ACB01CAC0F /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				302D95EE14D2391D003F00A1 /* MainViewController.h */,
+				302D95EF14D2391D003F00A1 /* MainViewController.m */,
+				302D95F014D2391D003F00A1 /* MainViewController.xib */,
+				1D3623240D0F684500981E51 /* AppDelegate.h */,
+				1D3623250D0F684500981E51 /* AppDelegate.m */,
+			);
+			name = Classes;
+			path = myVuforia/Classes;
+			sourceTree = SOURCE_ROOT;
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* myVuforia.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				EB87FDF41871DAF40020F90C /* config.xml */,
+				EB87FDF31871DA8E0020F90C /* www */,
+				EB87FDF11871DA420020F90C /* Staging */,
+				301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				307C750510C5A3420062BCA9 /* Plugins */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* myVuforia-Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+				ED33DF2A687741AEAF9F8254 /* Bridging-Header.h */,
+			);
+			name = "Other Sources";
+			path = myVuforia;
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0207DA571B56EA530066E2B4 /* Images.xcassets */,
+				3047A50E1AB8057F00498E2A /* config */,
+				8D1107310486CEB800E47090 /* myVuforia-Info.plist */,
+				6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */,
+				55F300C8FEE649CD913B0714 /* VuforiaPlugin.bundle */,
+				8356A0ABDB0A4707AB82D09F /* Line.fragsh */,
+				548ADF9288774D9BA083FFDF /* Line.vertsh */,
+				A9BBA656D8A14D4D872E3CAC /* Simple.fragsh */,
+				B8415466B07A4CF49209C823 /* Simple.vertsh */,
+				95D16B03DC7142ADA68DD9F3 /* PluginTest.dat */,
+				93A1DBDFC51B438E94815CCA /* PluginTest.xml */,
+				D33D86999B054480BF20F83B /* close-button.png */,
+				54F118F540044C3A881681EC /* iOSDevices.png */,
+			);
+			name = Resources;
+			path = myVuforia/Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6D13D4D3268749ADA04FAAF9 /* libVuforia.a */,
+				F57F107F05D44C6BB9EC58D0 /* AVFoundation.framework */,
+				1E5292E670B745E1A4E32E08 /* CoreMedia.framework */,
+				9FD54E8C46174A6E9CFB787D /* CoreMotion.framework */,
+				F71179CE411448E9AFDDCD06 /* CoreVideo.framework */,
+				7034CBF0B47740B7895671BC /* Foundation.framework */,
+				6F01EC6D3A0B46BB8E828944 /* OpenGLES.framework */,
+				5C4FEB8575CD40EA9E662752 /* QuartzCore.framework */,
+				677FA4477D2F4EBC861415E1 /* Security.framework */,
+				5B736C9A0A7F41938211753B /* SystemConfiguration.framework */,
+				93E6451ADB6B4FC89F6FFED9 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		301BF52E109A57CC0062928A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				301BF535109A57CC0062928A /* libCordova.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3047A50E1AB8057F00498E2A /* config */ = {
+			isa = PBXGroup;
+			children = (
+				3047A50F1AB8059700498E2A /* build-debug.xcconfig */,
+				3047A5101AB8059700498E2A /* build-release.xcconfig */,
+				3047A5111AB8059700498E2A /* build.xcconfig */,
+			);
+			name = config;
+			sourceTree = "<group>";
+		};
+		307C750510C5A3420062BCA9 /* Plugins */ = {
+			isa = PBXGroup;
+			children = (
+				C6D34858BCFE4BE8B9DDC5C2 /* CDVDevice.m */,
+				78F69C18594B4B79B37A48EC /* CDVDevice.h */,
+				006D7F6AF47F4C10BF5F6176 /* CDVFile.m */,
+				92BCBC793FAB44FE8E1E5B7D /* CDVLocalFilesystem.m */,
+				C0FD0DC5B2064CFA88CDCB93 /* CDVAssetLibraryFilesystem.m */,
+				CD9E897FBC464247A05A7A88 /* CDVFile.h */,
+				729398E0732F4F4A83B64C06 /* CDVLocalFilesystem.h */,
+				98C482F9F49C428DA8C0F2F2 /* CDVAssetLibraryFilesystem.h */,
+				C853194E1A4C49BDB407291F /* CDVSound.m */,
+				38EDE52D8AA44C2A9B5A019F /* CDVSound.h */,
+				486FAB704A624B8F8DA1F641 /* CDVStatusBar.m */,
+				35D2677C34FB414CB63ECDAB /* CDVStatusBar.h */,
+				6A3C60943B3C4584A2EDAE88 /* VuforiaPlugin.m */,
+				2C4704EA17F4464FB3B81AD6 /* ViewController.mm */,
+				0B50DC3D09BC4A64A9554F79 /* ImageTargetsEAGLView.mm */,
+				0FF01A39084B42FCB82828EE /* ImageTargetsViewController.mm */,
+				BE26E4BDE05D41FCA3EDD78F /* ApplicationSession.h */,
+				18EDBE1149FF466F8814CD70 /* ApplicationSession.mm */,
+				64CB741D86BF4D04A05258A0 /* GLResourceHandler.h */,
+				7FF1D92EE30F4FCBAE12B717 /* VuforiaPlugin.h */,
+				F62BCB1E4E084287928D996A /* ViewController.h */,
+				112A4C1D9A594F578475B9C9 /* ImageTargetsEAGLView.h */,
+				277109696EC845DF83375A26 /* ImageTargetsViewController.h */,
+			);
+			name = Plugins;
+			path = myVuforia/Plugins;
+			sourceTree = SOURCE_ROOT;
+		};
+		EB87FDF11871DA420020F90C /* Staging */ = {
+			isa = PBXGroup;
+			children = (
+				F840E1F0165FE0F500CFE078 /* config.xml */,
+				301BF56E109A69640062928A /* www */,
+			);
+			name = Staging;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* myVuforia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "myVuforia" */;
+			buildPhases = (
+				304B58A110DAC018002A0835 /* Copy www directory */,
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				301BF551109A68C00062928A /* PBXTargetDependency */,
+			);
+			name = myVuforia;
+			productName = myVuforia;
+			productReference = 1D6058910D05DD3D006BFB54 /* myVuforia.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 510;
+				TargetAttributes = {
+					1D6058900D05DD3D006BFB54 = {
+						DevelopmentTeam = 9A5U4LQ588;
+					};
+				};
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "myVuforia" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 301BF52E109A57CC0062928A /* Products */;
+					ProjectRef = 301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* myVuforia */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		301BF535109A57CC0062928A /* libCordova.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libCordova.a;
+			remoteRef = 301BF534109A57CC0062928A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */,
+				0207DA581B56EA530066E2B4 /* Images.xcassets in Resources */,
+				6AFF5BF91D6E424B00AB3073 /* CDVLaunchScreen.storyboard in Resources */,
+				D3EB8636E50246B590F2FC9E /* VuforiaPlugin.bundle in Resources */,
+				6DBA697354F94F8D8B391DCB /* Line.fragsh in Resources */,
+				901DF233D22649C6BE99A993 /* Line.vertsh in Resources */,
+				426C7E65B58C467D9EB08C15 /* Simple.fragsh in Resources */,
+				49F80687AA7742EB9F0A83DB /* Simple.vertsh in Resources */,
+				7F8A15418D4348BF815FEEFD /* PluginTest.dat in Resources */,
+				62B3E73BC39A43AEA9DFC246 /* PluginTest.xml in Resources */,
+				D3428681A22E4E5A9E8B0275 /* close-button.png in Resources */,
+				170D090EA7454DCCA659536E /* iOSDevices.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		304B58A110DAC018002A0835 /* Copy www directory */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy www directory";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "NODEJS_PATH=/usr/local/bin; NVM_NODE_PATH=~/.nvm/versions/node/`nvm version 2>/dev/null`/bin; N_NODE_PATH=`find /usr/local/n/versions/node/* -maxdepth 0 -type d 2>/dev/null | tail -1`/bin; XCODE_NODE_PATH=`xcode-select --print-path`/usr/share/xcs/Node/bin; PATH=$NODEJS_PATH:$NVM_NODE_PATH:$N_NODE_PATH:$XCODE_NODE_PATH:$PATH && node cordova/lib/copy-www-build-step.js";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
+				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
+				91B876C0D3C34E8B8372D0DC /* CDVDevice.m in Sources */,
+				9C110652D22A4F1093DD9310 /* CDVFile.m in Sources */,
+				173D9974C6674C5ABAF599F8 /* CDVLocalFilesystem.m in Sources */,
+				759A6C3C895443D4888777B4 /* CDVAssetLibraryFilesystem.m in Sources */,
+				39528FCCEF3147D2917CEE3E /* CDVSound.m in Sources */,
+				6D03A09E040B4F0FBD0D41B6 /* CDVStatusBar.m in Sources */,
+				EDDD883B7F12452A91612183 /* VuforiaPlugin.m in Sources */,
+				70F5014F27054FF1A95BC668 /* ViewController.mm in Sources */,
+				2202DD12052A42D59A288142 /* ImageTargetsEAGLView.mm in Sources */,
+				6FCE3E86725640FEAF71D01E /* ImageTargetsViewController.mm in Sources */,
+				FFB8E1A4B5274E828AD28CBF /* ApplicationSession.h in Sources */,
+				3B74A3AD217C45139C821B05 /* ApplicationSession.mm in Sources */,
+				6B5DB5F455964D2BA94FED7A /* GLResourceHandler.h in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		301BF551109A68C00062928A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CordovaLib;
+			targetProxy = 301BF550109A68C00062928A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3047A50F1AB8059700498E2A /* build-debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = 9A5U4LQ588;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "myVuforia/myVuforia-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "myVuforia/myVuforia-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/myVuforia/Plugins/cordova-plugin-vuforia-sdk/libs\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.xchopin.vuforia;
+				PRODUCT_NAME = myVuforia;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3047A5101AB8059700498E2A /* build-release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = 9A5U4LQ588;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "myVuforia/myVuforia-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "myVuforia/myVuforia-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/myVuforia/Plugins/cordova-plugin-vuforia-sdk/libs\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.xchopin.vuforia;
+				PRODUCT_NAME = myVuforia;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3047A5111AB8059700498E2A /* build.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3047A5111AB8059700498E2A /* build.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "myVuforia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "myVuforia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
