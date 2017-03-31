@@ -1,6 +1,6 @@
 # myVuforia
 
-A simple example Cordova project using the vuforia plugin
+A simple example Cordova project using the vuforia plugin. It can scan images from `www/targets/imagetargets_targets.pdf`
 
 ### Features
 
